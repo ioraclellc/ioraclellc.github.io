@@ -8,6 +8,10 @@ li {
   font-size: 22px;
 }
 
+li {
+  margin-bottom: 10px; /* adds space below each list item */
+}
+
 h1 {
   color: darkblue;
 }
