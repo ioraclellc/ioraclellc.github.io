@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Biology Topics</title>
-  <style>
-    <link rel="stylesheet" href="styleMenuItem.css">
-    <link rel="stylesheet" href="style.css">
-  </style>
+  
+  <!-- ✅ These should NOT be inside <style> -->
+  <link rel="stylesheet" href="styleMenuItem.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- ✅ <p> should not be inside <nav> -->
   <nav class="main-menu">
-  <ul>
-    <li><a href="biologyTopics.html">Biolgy</a></li>
-  </ul>
-    <p>Each Menu Item will take a page which will further direct you to watch youtube video</p>
-</nav>
+    <ul>
+      <li><a href="biologyTopics.html">Biology</a></li> <!-- ✅ Spelling corrected -->
+    </ul>
+  </nav>
+
+  <!-- ✅ Moved <p> outside <nav> -->
+  <p>Each menu item will take you to a page that will direct you to a YouTube video.</p>
+
 </body>
 </html>
-
